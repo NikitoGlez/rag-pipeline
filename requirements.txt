@@ -1,0 +1,32 @@
+# RAG Pipeline — dependencies
+# Install with: pip install -r requirements.txt
+
+# Core framework
+langchain==0.3.25
+langchain-community==0.3.23
+langchain-chroma==1.1.0
+langchain-groq==1.1.2
+langchain-huggingface==0.1.2
+
+# Vector DB
+chromadb==1.5.5
+
+# Embeddings (local, no API needed)
+sentence-transformers==3.4.1
+
+# Document loading
+pypdf==5.4.0
+unstructured==0.16.23
+
+# Evaluation
+ragas==0.2.14
+
+# App
+streamlit==1.43.2
+
+# Utilities
+python-dotenv==1.1.0
+pandas==2.2.3
+tqdm==4.67.1
+notebook==7.3.3
+ipywidgets==8.1.5
